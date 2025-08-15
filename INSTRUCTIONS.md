@@ -10,101 +10,14 @@ This workflow uses a three-stage iterative approach to classify cybercrime cases
 Based on analysis of 609 classified cybercrime cases (101 from test + 508 from validation), here are the expected tag distributions across classification categories:
 
 
-### Expected Output Quality Indicators
-
-#### High Confidence Cases (0.9-1.0)
-- Clear attack patterns with well-documented methods
-- Specific technology platforms and communication channels
-- Detailed financial impact and transaction records
-- Clear victim demographics and approach methods
-
-#### Medium Confidence Cases (0.7-0.8)
-- Some missing details in attack methodology
-- Limited information about victim approach
-- Unclear technology platforms used
-- Partial social engineering technique identification
-
-#### Low Confidence Cases (0.4-0.6)
-- Limited case details in original complaint
-- Unclear attack vectors or methods
-- Missing victim demographic information
-- Ambiguous classification requirements
-
-### Classification Consistency Guidelines
-
-#### Crime Type Classification
-- **Primary Type**: Always assign the most dominant crime type
-- **Secondary Types**: Add additional types if multiple patterns exist
-- **Financial Impact**: Prioritize financial fraud types for monetary losses
-- **Privacy Violations**: Classify non-consensual imagery and data breaches appropriately
-
-#### Attack Vector Identification
-- **Primary Method**: Identify the main attack technique used
-- **Technical vs Social**: Distinguish between technical attacks and social engineering
-- **Impersonation Types**: Specify whether it's authority, corporate, or personal impersonation
-- **Access Methods**: Clarify how unauthorized access was gained
-
-#### Victim Approach Classification
-- **Communication Channel**: Identify the primary platform used for initial contact
-- **Approach Method**: Distinguish between cold calls, social media, and other methods
-- **Trust Building**: Note if relationship building was involved
-- **Urgency Creation**: Identify pressure tactics used
-
-#### Technology Platform Mapping
-- **Primary Platform**: Identify the main technology used
-- **Communication Tools**: Note messaging and social media platforms
-- **Financial Platforms**: Specify banking and payment systems
-- **Trading Platforms**: Identify investment and trading applications
-
-#### Victim Demographics Assessment
-- **Tech Familiarity**: Classify based on behavior patterns and responses
-- **Age Groups**: Use available age information when provided
-- **Professional Status**: Note occupation and business context
-- **Vulnerability Factors**: Consider factors that made victims susceptible
-
-#### Impact Outcome Classification
-- **Primary Impact**: Identify the main consequence suffered
-- **Financial Losses**: Quantify monetary and investment losses
-- **Privacy Breaches**: Note data and reputation damage
-- **Emotional Impact**: Consider psychological and social consequences
-
-#### Social Engineering Technique Identification
-- **Primary Technique**: Identify the main manipulation method
-- **Pressure Tactics**: Note authority, threat, or time pressure used
-- **Trust Building**: Identify relationship and credibility establishment
-- **Credential Manipulation**: Note fake credentials and impersonation details
-
-#### Geographic-Temporal Pattern Classification
-- **Operation Duration**: Classify as quick hit or sustained operation
-- **Geographic Scope**: Note local, interstate, or cross-border operations
-- **Cyber Space Usage**: Identify online vs. offline components
-- **Temporal Patterns**: Note timing and duration of operations
-
-### Quality Assurance Recommendations
-
-#### For Human Reviewers
-1. **Check Tag Consistency**: Ensure similar cases receive similar classifications
-2. **Validate Confidence Scores**: High confidence should correlate with detailed case information
-3. **Review Edge Cases**: Pay attention to unusual crime types or attack methods
-4. **Verify Platform Accuracy**: Ensure technology platforms match case descriptions
-
-#### For Schema Updates
-1. **Add Missing Tags**: Include new crime types and attack vectors as they emerge
-2. **Refine Categories**: Split overly broad categories into more specific subcategories
-3. **Update Examples**: Provide clear examples for each classification category
-4. **Maintain Balance**: Ensure categories have sufficient granularity without being too specific
-
-#### For Classification Process
-1. **Use Consistent Naming**: Maintain standardized tag names across all categories
-2. **Apply Multiple Tags**: Use multiple tags when cases involve multiple patterns
-3. **Prioritize Primary Types**: Always identify the main crime type and attack method
-4. **Document Reasoning**: Provide clear notes explaining classification decisions
 
 This analysis provides a baseline understanding of expected tag distributions and helps ensure consistent classification quality across the dataset.
 
 ### Complete Tag Distribution Analysis Results
 
 The following table provides the complete breakdown of all tags and their distributions across the 609 analyzed cases. **Percentages represent the proportion of cases where each tag appears (out of 609 total cases):**
+
+<a name="tag-distribution-table"></a>
 
 | Category | Tag | Count | Percentage | Category | Tag | Count | Percentage |
 |----------|-----|-------|------------|----------|-----|-------|------------|
@@ -397,43 +310,6 @@ Manual improvements provide:
 - **Resume Capability:** Avoids reprocessing completed work
 - **Cost Estimation:** Pre-processing cost calculations
 
-## Best Practices
-
-### For Human Reviewers
-1. **Focus on Schema Quality:** This has the biggest impact on subsequent stages
-2. **Look for Patterns:** Identify recurring classification issues
-3. **Validate Edge Cases:** Ensure schema covers unusual but important scenarios
-4. **Maintain Consistency:** Use consistent naming conventions
-
-### For System Operation
-1. **Monitor Progress Files:** Check for any processing issues
-2. **Validate Schema Changes:** Ensure JSON format remains valid
-3. **Backup Important Files:** Keep copies of improved schemas
-4. **Test Small Batches:** Verify improvements before large-scale processing
-
-## Expected Outcomes
-
-### Quality Improvements
-- **Stage 1:** Baseline quality with identified gaps
-- **Stage 2:** Improved consistency with refined schema
-- **Stage 3:** High-quality classifications across full dataset
-
-### Iterative Schema Enhancement
-- **Stage 1 → Stage 2:** Schema improved based on 100-case review
-- **Stage 2 → Stage 3:** Schema further refined based on 500-case validation
-- **Continuous Learning:** Each stage builds upon previous improvements
-- **Human Expertise Integration:** Manual insights automatically incorporated into schema
-
-### Cost Efficiency
-- **Total Estimated Cost:** $110-120 for full dataset
-- **Iterative Refinement:** Reduces need for post-processing corrections
-- **Human Expertise:** Leverages domain knowledge without manual classification
-
-### Final Deliverable
-- **Complete Dataset:** All cases classified with consistent taxonomy
-- **Validated Schema:** Human-reviewed and tested classification system
-- **Quality Metrics:** Confidence scores and classification notes for analysis
-- **Process Documentation:** Reusable workflow for future datasets
 
 ## Troubleshooting
 

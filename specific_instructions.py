@@ -6,7 +6,7 @@
 SPECIFIC_INSTRUCTIONS = """
 I will add some gotchas because you might not be aware of the context specific to Indian cybercrime.
 
-8. If a person has been put under fear by perpretator, pretending to be a government official, by mentioning that his identity has been used for a crime, or that a parcel in his name has contraband, add ;'digital_arrest' to the classification, even if the words are not specifically mentioned.
+8. If a person has been put under fear by a perpetrator, pretending to be a government official, by mentioning that his identity has been used for a crime, or that a parcel in his name has contraband, add 'digital_arrest' to the classification, even if the words are not specifically mentioned.
 
 9. You sometimes misclassify a case where a victim falls for a Facebook Ad from the perpretrators and you misclassiy it as 'social_media_friend_request' whereas it should be 'facebook_ad'.
 Similarly, look out for other fake ad methods for reaching out to victim. 
