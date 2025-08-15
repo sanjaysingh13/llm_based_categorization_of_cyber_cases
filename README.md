@@ -39,7 +39,8 @@ python semi_automated_classification.py
 - Output: `classified_1_test.csv`
 
 ### Stage 2: Manual Review & Schema Update
-1. **Examine Results**: Review `classified_1_test.csv` for quality and missing tags
+1. **Examine Results**: Review `classified_1_test.csv` for quality and missing tags.
+If you want to change any instructions to Claude, modify  [`specific_instructions.py`](https://github.com/sanjaysingh13/llm_based_categorization_of_cyber_cases/blob/main/specific_instructions.py)
 2. **Update Schema**: Run the schema update script to automatically add new tags:
    ```bash
    python update_schema_from_results.py
