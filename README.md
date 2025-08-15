@@ -97,9 +97,9 @@ python analyze_tag_distributions.py
 
 ## Documentation
 
-- **`INSTRUCTIONS.md`** - Detailed workflow documentation and technical details
-- **`RELEASE_NOTES.md`** - Version information, features, and system requirements
+- **[`INSTRUCTIONS.md`](https://github.com/sanjaysingh13/llm_based_categorization_of_cyber_cases/blob/main/INSTRUCTIONS.md)** - Detailed workflow documentation and technical details
+- **[`RELEASE_NOTES.md`](https://github.com/sanjaysingh13/llm_based_categorization_of_cyber_cases/blob/main/RELEASE_NOTES.md)** - Version information, features, and system requirements
 
 ## Support
 
-For detailed workflow information, see `INSTRUCTIONS.md`.
+For detailed workflow information, see [`INSTRUCTIONS.md`](https://github.com/sanjaysingh13/llm_based_categorization_of_cyber_cases/blob/main/INSTRUCTIONS.md).
