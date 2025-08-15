@@ -1,0 +1,608 @@
+{
+  "dataset1": {
+    "filename": "combined_datasets",
+    "total_cases": 609
+  },
+  "analysis": {
+    "crime_type": {
+      "total_cases": 609,
+      "cases_with_tags": 608,
+      "unique_tags": 46,
+      "tag_distribution": {
+        "financial_fraud": {
+          "count": 229,
+          "percentage": 37.6
+        },
+        "account_takeover": {
+          "count": 157,
+          "percentage": 25.78
+        },
+        "customer_service_fraud": {
+          "count": 148,
+          "percentage": 24.3
+        },
+        "credential_theft": {
+          "count": 113,
+          "percentage": 18.56
+        },
+        "traditional_cheating_and_fraud": {
+          "count": 100,
+          "percentage": 16.42
+        },
+        "privacy_violation": {
+          "count": 73,
+          "percentage": 11.99
+        },
+        "investment_scam": {
+          "count": 68,
+          "percentage": 11.17
+        },
+        "non_consensual_imagery": {
+          "count": 63,
+          "percentage": 10.34
+        },
+        "sexual_blackmail": {
+          "count": 44,
+          "percentage": 7.22
+        },
+        "job_fraud": {
+          "count": 41,
+          "percentage": 6.73
+        },
+        "loan_fraud": {
+          "count": 37,
+          "percentage": 6.08
+        },
+        "bank_kyc_fraud": {
+          "count": 37,
+          "percentage": 6.08
+        },
+        "unauthorized_access": {
+          "count": 33,
+          "percentage": 5.42
+        },
+        "provocative_social_media_post": {
+          "count": 28,
+          "percentage": 4.6
+        },
+        "task_based_fraud": {
+          "count": 27,
+          "percentage": 4.43
+        },
+        "reputation_threat": {
+          "count": 27,
+          "percentage": 4.43
+        },
+        "document_forgery": {
+          "count": 27,
+          "percentage": 4.43
+        },
+        "fraud_by_impersonation_of_influential_person": {
+          "count": 24,
+          "percentage": 3.94
+        },
+        "stock_market_scam": {
+          "count": 17,
+          "percentage": 2.79
+        },
+        "sextortion": {
+          "count": 13,
+          "percentage": 2.13
+        },
+        "identity_crimes": {
+          "count": 12,
+          "percentage": 1.97
+        },
+        "franchise_fraud": {
+          "count": 11,
+          "percentage": 1.81
+        },
+        "digital_arrest": {
+          "count": 10,
+          "percentage": 1.64
+        },
+        "call_centre_fraud": {
+          "count": 10,
+          "percentage": 1.64
+        },
+        "extortion": {
+          "count": 9,
+          "percentage": 1.48
+        },
+        "fake_hotel_booking": {
+          "count": 8,
+          "percentage": 1.31
+        },
+        "recording_of_sexual_video_call_inititiated_by_perpetrator": {
+          "count": 8,
+          "percentage": 1.31
+        },
+        "sim_card_fraud": {
+          "count": 8,
+          "percentage": 1.31
+        },
+        "not_a_cyber_crime": {
+          "count": 6,
+          "percentage": 0.99
+        },
+        "subsidy_fraud": {
+          "count": 5,
+          "percentage": 0.82
+        },
+        "fake_sim_card_pos": {
+          "count": 5,
+          "percentage": 0.82
+        },
+        "ransom_demand": {
+          "count": 4,
+          "percentage": 0.66
+        },
+        "child_exploitation": {
+          "count": 4,
+          "percentage": 0.66
+        },
+        "online_gambling": {
+          "count": 2,
+          "percentage": 0.33
+        },
+        "romance_fraud": {
+          "count": 2,
+          "percentage": 0.33
+        },
+        "fake_wine_delivery_fraud": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "fake_service_fraud": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "call_forwarding_to_divert_otp_over_call": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "general_purpose_fir_suitable_for_wider_investigation": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "victim_was_paid_from_proceeds_of_crime": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "failure_to_deliver_purchased_goods": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "child_sexual_abuse_material": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "fake_advertisement_for_product_sales": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "doctored_media": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "csp_fraud": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "suo_moto_case": {
+          "count": 1,
+          "percentage": 0.16
+        }
+      }
+    },
+    "attack_vector": {
+      "total_cases": 609,
+      "cases_with_tags": 598,
+      "unique_tags": 23,
+      "tag_distribution": {
+        "impersonation": {
+          "count": 287,
+          "percentage": 47.13
+        },
+        "unauthorized_access": {
+          "count": 155,
+          "percentage": 25.45
+        },
+        "false_business_proposal": {
+          "count": 144,
+          "percentage": 23.65
+        },
+        "credential_theft": {
+          "count": 130,
+          "percentage": 21.35
+        },
+        "authority_abuse": {
+          "count": 99,
+          "percentage": 16.26
+        },
+        "corporate_impersonation": {
+          "count": 73,
+          "percentage": 11.99
+        },
+        "relationship_building": {
+          "count": 63,
+          "percentage": 10.34
+        },
+        "otp_fraud": {
+          "count": 51,
+          "percentage": 8.37
+        },
+        "malicious_app": {
+          "count": 50,
+          "percentage": 8.21
+        },
+        "account_takeover": {
+          "count": 47,
+          "percentage": 7.72
+        },
+        "phishing_link": {
+          "count": 40,
+          "percentage": 6.57
+        },
+        "remote_access_app": {
+          "count": 40,
+          "percentage": 6.57
+        },
+        "kyc_pretext": {
+          "count": 34,
+          "percentage": 5.58
+        },
+        "fake_google_search_results": {
+          "count": 15,
+          "percentage": 2.46
+        },
+        "fake_mobile_tower_installation": {
+          "count": 15,
+          "percentage": 2.46
+        },
+        "qr_code_for_debiting_fraudulently_presented_as_crediting": {
+          "count": 7,
+          "percentage": 1.15
+        },
+        "sim_swap": {
+          "count": 5,
+          "percentage": 0.82
+        },
+        "atm_manipulation": {
+          "count": 4,
+          "percentage": 0.66
+        },
+        "facebook_ad": {
+          "count": 3,
+          "percentage": 0.49
+        },
+        "\"impersonation\"": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "credit_card_courier_involvement": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "fake_website": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "threat_pressure": {
+          "count": 1,
+          "percentage": 0.16
+        }
+      }
+    },
+    "victim_approach": {
+      "total_cases": 609,
+      "cases_with_tags": 505,
+      "unique_tags": 14,
+      "tag_distribution": {
+        "cold_call": {
+          "count": 254,
+          "percentage": 41.71
+        },
+        "whatsapp_message": {
+          "count": 99,
+          "percentage": 16.26
+        },
+        "social_media_friend_request": {
+          "count": 70,
+          "percentage": 11.49
+        },
+        "direct_contact": {
+          "count": 51,
+          "percentage": 8.37
+        },
+        "sms_contact": {
+          "count": 31,
+          "percentage": 5.09
+        },
+        "marketplace_listing": {
+          "count": 27,
+          "percentage": 4.43
+        },
+        "telegram_invite": {
+          "count": 22,
+          "percentage": 3.61
+        },
+        "fake_google_search_results": {
+          "count": 15,
+          "percentage": 2.46
+        },
+        "job_portal": {
+          "count": 13,
+          "percentage": 2.13
+        },
+        "facebook_ad": {
+          "count": 3,
+          "percentage": 0.49
+        },
+        "nigerian scam": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "mail": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "youtube_ad": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "dating_app_match": {
+          "count": 1,
+          "percentage": 0.16
+        }
+      }
+    },
+    "technology_platform": {
+      "total_cases": 609,
+      "cases_with_tags": 545,
+      "unique_tags": 14,
+      "tag_distribution": {
+        "banking_apps": {
+          "count": 306,
+          "percentage": 50.25
+        },
+        "whatsapp": {
+          "count": 113,
+          "percentage": 18.56
+        },
+        "facebook": {
+          "count": 90,
+          "percentage": 14.78
+        },
+        "upi_apps": {
+          "count": 79,
+          "percentage": 12.97
+        },
+        "credit_card": {
+          "count": 60,
+          "percentage": 9.85
+        },
+        "sms": {
+          "count": 48,
+          "percentage": 7.88
+        },
+        "trading_apps": {
+          "count": 27,
+          "percentage": 4.43
+        },
+        "telegram": {
+          "count": 22,
+          "percentage": 3.61
+        },
+        "instagram": {
+          "count": 16,
+          "percentage": 2.63
+        },
+        "youtube": {
+          "count": 9,
+          "percentage": 1.48
+        },
+        "crypto_platforms": {
+          "count": 4,
+          "percentage": 0.66
+        },
+        "social_media": {
+          "count": 4,
+          "percentage": 0.66
+        },
+        "telephone": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "twitter": {
+          "count": 1,
+          "percentage": 0.16
+        }
+      }
+    },
+    "victim_demographics": {
+      "total_cases": 609,
+      "cases_with_tags": 560,
+      "unique_tags": 12,
+      "tag_distribution": {
+        "novice": {
+          "count": 366,
+          "percentage": 60.1
+        },
+        "middle_aged": {
+          "count": 99,
+          "percentage": 16.26
+        },
+        "professional": {
+          "count": 87,
+          "percentage": 14.29
+        },
+        "young_adult": {
+          "count": 81,
+          "percentage": 13.3
+        },
+        "business_owner": {
+          "count": 42,
+          "percentage": 6.9
+        },
+        "intermediate": {
+          "count": 27,
+          "percentage": 4.43
+        },
+        "elderly": {
+          "count": 19,
+          "percentage": 3.12
+        },
+        "student": {
+          "count": 14,
+          "percentage": 2.3
+        },
+        "minor": {
+          "count": 10,
+          "percentage": 1.64
+        },
+        "retired": {
+          "count": 9,
+          "percentage": 1.48
+        },
+        "advanced": {
+          "count": 1,
+          "percentage": 0.16
+        },
+        "adult": {
+          "count": 1,
+          "percentage": 0.16
+        }
+      }
+    },
+    "impact_outcome": {
+      "total_cases": 609,
+      "cases_with_tags": 604,
+      "unique_tags": 9,
+      "tag_distribution": {
+        "direct_monetary_loss": {
+          "count": 489,
+          "percentage": 80.3
+        },
+        "unauthorized_transactions": {
+          "count": 275,
+          "percentage": 45.16
+        },
+        "reputation_damage": {
+          "count": 105,
+          "percentage": 17.24
+        },
+        "privacy_breach": {
+          "count": 87,
+          "percentage": 14.29
+        },
+        "emotional_trauma": {
+          "count": 86,
+          "percentage": 14.12
+        },
+        "investment_loss": {
+          "count": 71,
+          "percentage": 11.66
+        },
+        "identity_compromise": {
+          "count": 43,
+          "percentage": 7.06
+        },
+        "credit_damage": {
+          "count": 10,
+          "percentage": 1.64
+        },
+        "harassment": {
+          "count": 1,
+          "percentage": 0.16
+        }
+      }
+    },
+    "social_engineering": {
+      "total_cases": 609,
+      "cases_with_tags": 506,
+      "unique_tags": 11,
+      "tag_distribution": {
+        "impersonation": {
+          "count": 278,
+          "percentage": 45.65
+        },
+        "fake_credentials": {
+          "count": 241,
+          "percentage": 39.57
+        },
+        "authority_pressure": {
+          "count": 202,
+          "percentage": 33.17
+        },
+        "opportunity_fomo": {
+          "count": 102,
+          "percentage": 16.75
+        },
+        "gradual_investment": {
+          "count": 98,
+          "percentage": 16.09
+        },
+        "threat_pressure": {
+          "count": 87,
+          "percentage": 14.29
+        },
+        "relationship_building": {
+          "count": 46,
+          "percentage": 7.55
+        },
+        "false_testimonials": {
+          "count": 34,
+          "percentage": 5.58
+        },
+        "time_pressure": {
+          "count": 7,
+          "percentage": 1.15
+        },
+        "trust_building": {
+          "count": 4,
+          "percentage": 0.66
+        },
+        "authority_abuse": {
+          "count": 1,
+          "percentage": 0.16
+        }
+      }
+    },
+    "geographic_temporal": {
+      "total_cases": 609,
+      "cases_with_tags": 608,
+      "unique_tags": 7,
+      "tag_distribution": {
+        "quick_hit": {
+          "count": 321,
+          "percentage": 52.71
+        },
+        "cyber_space": {
+          "count": 295,
+          "percentage": 48.44
+        },
+        "local": {
+          "count": 291,
+          "percentage": 47.78
+        },
+        "multiple_day_operation": {
+          "count": 120,
+          "percentage": 19.7
+        },
+        "sustained_fraud": {
+          "count": 115,
+          "percentage": 18.88
+        },
+        "interstate": {
+          "count": 28,
+          "percentage": 4.6
+        },
+        "cross_border": {
+          "count": 23,
+          "percentage": 3.78
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+# Core data processing and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# HTTP client for API calls
+aiohttp>=3.8.0
+aiofiles>=23.0.0
+
+# Async support
+asyncio-compat>=0.1.2
+
+# JSON and data handling
+jsonschema>=4.17.0
+
+# Logging and utilities
+python-dotenv>=1.0.0
+
+# Optional: For better CSV handling
+openpyxl>=3.1.0
+xlrd>=2.0.0
