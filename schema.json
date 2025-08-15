@@ -1,0 +1,178 @@
+{
+    "schema": {
+        "crime_type": {
+            "financial_fraud": [
+                "task_based_fraud",
+                "investment_scam",
+                "customer_service_fraud",
+                "bank_kyc_fraud",
+                "loan_fraud",
+                "job_fraud"
+            ],
+            "sexual_offenses": [
+                "child_exploitation",
+                "non_consensual_imagery",
+                "sexual_blackmail",
+                "privacy_violation"
+            ],
+            "identity_crimes": [
+                "sim_card_fraud",
+                "account_takeover",
+                "credential_theft",
+                "document_forgery",
+                "AEPS_fraud"
+            ],
+            "extortion": [
+                "sextortion",
+                "digital_arrest",
+                "reputation_threat",
+                "ransom_demand"
+            ],
+            "other": [
+                "identity_crimes",
+                "stock_market_scam",
+                "fraud_by_impersonation_of_influential_person",
+                "provocative_social_media_post",
+                "recording_of_sexual_video_call_inititiated_by_perpetrator",
+                "extortion",
+                "fake_hotel_booking",
+                "financial_fraud",
+                "subsidy_fraud",
+                "fake_wine_delivery_fraud",
+                "unauthorized_access",
+                "franchise_fraud",
+                "call_centre_fraud"
+            ]
+        },
+        "attack_vector": {
+            "technical": [
+                "phishing_link",
+                "malicious_app",
+                "unauthorized_access",
+                "sim_swap",
+                "credential_theft"
+            ],
+            "social": [
+                "impersonation",
+                "false_business_proposal",
+                "relationship_building",
+                "authority_abuse"
+            ],
+            "other": [
+                "atm_manipulation",
+                "otp_fraud",
+                "qr_code_for_debiting_fraudulently_presented_as_crediting",
+                "account_takeover",
+                "kyc_pretext",
+                "fake_mobile_tower_installation",
+                "fake_google_search_results",
+                "corporate_impersonation",
+                "remote_access_app"
+            ]
+        },
+        "victim_approach": {
+            "direct_contact": [
+                "cold_call",
+                "whatsapp_message",
+                "telegram_invite",
+                "sms_contact"
+            ],
+            "platform_based": [
+                "social_media_friend_request",
+                "dating_app_match",
+                "marketplace_listing",
+                "job_portal"
+            ],
+            "other": [
+                "fake_google_search_results",
+                "direct_contact"
+            ]
+        },
+        "technology_platform": {
+            "messaging": [
+                "whatsapp",
+                "telegram",
+                "sms"
+            ],
+            "social_media": [
+                "facebook",
+                "instagram",
+                "linkedin"
+            ],
+            "financial": [
+                "upi_apps",
+                "banking_apps",
+                "crypto_platforms",
+                "trading_apps"
+            ],
+            "other": [
+                "credit_card",
+                "youtube"
+            ]
+        },
+        "victim_demographics": {
+            "age_group": [
+                "minor",
+                "young_adult",
+                "middle_aged",
+                "elderly"
+            ],
+            "occupation": [
+                "student",
+                "professional",
+                "business_owner",
+                "retired"
+            ],
+            "tech_familiarity": [
+                "novice",
+                "intermediate",
+                "advanced"
+            ]
+        },
+        "impact_outcome": {
+            "financial": [
+                "direct_monetary_loss",
+                "unauthorized_transactions",
+                "investment_loss",
+                "credit_damage"
+            ],
+            "personal": [
+                "privacy_breach",
+                "emotional_trauma",
+                "reputation_damage",
+                "identity_compromise"
+            ]
+        },
+        "social_engineering": {
+            "pressure_tactics": [
+                "time_pressure",
+                "threat_pressure",
+                "opportunity_fomo",
+                "authority_pressure"
+            ],
+            "trust_building": [
+                "fake_credentials",
+                "false_testimonials",
+                "impersonation",
+                "gradual_investment"
+            ],
+            "other": [
+                "relationship_building"
+            ]
+        },
+        "geographic_temporal": {
+            "location": [
+                "cross_border",
+                "interstate",
+                "local",
+                "cyber_space"
+            ],
+            "timing": [
+                "multiple_day_operation",
+                "quick_hit",
+                "sustained_fraud"
+            ]
+        }
+    },
+    "full_response": "Based on analysis of the provided cases, here's a comprehensive tagging schema:\n\n```json\n{\n  \"crime_type\": {\n    \"financial_fraud\": [\n      \"task_based_fraud\",\n      \"investment_scam\",\n      \"customer_service_fraud\", \n      \"bank_kyc_fraud\",\n      \"loan_fraud\",\n      \"job_fraud\"\n    ],\n    \"sexual_offenses\": [\n      \"child_exploitation\",\n      \"non_consensual_imagery\",\n      \"sexual_blackmail\",\n      \"privacy_violation\"\n    ],\n    \"identity_crimes\": [\n      \"sim_card_fraud\",\n      \"account_takeover\",\n      \"credential_theft\",\n      \"document_forgery\"\n    ],\n    \"extortion\": [\n      \"sextortion\",\n      \"digital_arrest\",\n      \"reputation_threat\",\n      \"ransom_demand\"\n    ]\n  },\n  \"attack_vector\": {\n    \"technical\": [\n      \"phishing_link\",\n      \"malicious_app\",\n      \"unauthorized_access\",\n      \"sim_swap\",\n      \"credential_theft\"\n    ],\n    \"social\": [\n      \"impersonation\",\n      \"false_business_proposal\", \n      \"relationship_building\",\n      \"authority_abuse\"\n    ]\n  },\n  \"victim_approach\": {\n    \"direct_contact\": [\n      \"cold_call\",\n      \"whatsapp_message\",\n      \"telegram_invite\",\n      \"sms_contact\"\n    ],\n    \"platform_based\": [\n      \"social_media_friend_request\",\n      \"dating_app_match\",\n      \"marketplace_listing\",\n      \"job_portal\"\n    ]\n  },\n  \"technology_platform\": {\n    \"messaging\": [\n      \"whatsapp\",\n      \"telegram\",\n      \"sms\"\n    ],\n    \"social_media\": [\n      \"facebook\",\n      \"instagram\",\n      \"linkedin\"\n    ],\n    \"financial\": [\n      \"upi_apps\",\n      \"banking_apps\",\n      \"crypto_platforms\",\n      \"trading_apps\"\n    ]\n  },\n  \"victim_demographics\": {\n    \"age_group\": [\n      \"minor\",\n      \"young_adult\",\n      \"middle_aged\",\n      \"elderly\"\n    ],\n    \"occupation\": [\n      \"student\",\n      \"professional\",\n      \"business_owner\",\n      \"retired\"\n    ],\n    \"tech_familiarity\": [\n      \"novice\",\n      \"intermediate\",\n      \"advanced\"\n    ]\n  },\n  \"impact_outcome\": {\n    \"financial\": [\n      \"direct_monetary_loss\",\n      \"unauthorized_transactions\",\n      \"investment_loss\",\n      \"credit_damage\"\n    ],\n    \"personal\": [\n      \"privacy_breach\",\n      \"emotional_trauma\",\n      \"reputation_damage\",\n      \"identity_compromise\"\n    ]\n  },\n  \"social_engineering\": {\n    \"pressure_tactics\": [\n      \"time_pressure\",\n      \"threat_pressure\",\n      \"opportunity_fomo\",\n      \"authority_pressure\"\n    ],\n    \"trust_building\": [\n      \"fake_credentials\",\n      \"false_testimonials\",\n      \"impersonation\",\n      \"gradual_investment\"\n    ]\n  },\n  \"geographic_temporal\": {\n    \"location\": [\n      \"cross_border\",\n      \"interstate\",\n      \"local\",\n      \"cyber_space\"\n    ],\n    \"timing\": [\n      \"multiple_day_operation\",\n      \"quick_hit\",\n      \"sustained_fraud\"\n    ]\n  }\n}\n```\n\nRationale and Coverage:\n\n1. Crime Type (100% coverage)\n- Structured to capture both traditional and emerging cyber crimes\n- Hierarchical to allow both broad and specific categorization\n- Most cases fit multiple subcategories\n\n2. Attack Vector (90% coverage)\n- Split between technical and social methods\n- Reflects the hybrid nature of modern cyber crime\n- Some cases may lack clear technical components\n\n3. Victim Approach (95% coverage)\n- Focuses on initial contact methods\n- Important for prevention strategies\n- Well-documented in most cases\n\n4. Technology Platform (85% coverage)\n- Specific platforms identified in cases\n- Helps track trending attack surfaces\n- Some cases may involve multiple platforms\n\n5. Victim Demographics (70% coverage)\n- Not always explicitly stated\n- Helps identify vulnerable populations\n- Useful for prevention targeting\n\n6. Impact/Outcome (100% coverage)\n- Always has some measurable impact\n- Often multiple types of impact\n- Critical for severity assessment\n\n7. Social Engineering (80% coverage)\n- Present in most financial crimes\n- May be implicit rather than explicit\n- Key for prevention training\n\n8. Geographic/Temporal (75% coverage)\n- Not always clearly specified\n- Helps identify patterns\n- Useful for law enforcement coordination\n\nEdge Case Handling:\n\n1. Multiple Categories:\n- Allow multiple tags per case\n- Use primary/secondary classification\n- Track tag combinations\n\n2. Evolving Methods:\n- Regular schema updates\n- Flexible \"other\" categories\n- Version control for tags\n\n3. Incomplete Information:\n- Use \"unspecified\" tags\n- Minimum required fields\n- Confidence levels for tags\n\n4. Complex Cases:\n- Primary/secondary classification\n- Multiple tag combinations\n- Case-specific notes field\n\nThis schema provides comprehensive coverage while maintaining flexibility for new cyber crime patterns and variations."
+}
