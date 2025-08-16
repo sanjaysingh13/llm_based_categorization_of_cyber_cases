@@ -143,21 +143,6 @@ python analyze_tag_distributions.py
 4. **Progress Tracking**: Monitor classification quality improvements
 5. **Report Generation**: Create summaries for stakeholders
 
-#### Interpreting Results
-- **High Percentage Tags**: Indicate common patterns that should be well-represented in schema
-- **Low Percentage Tags**: May represent edge cases or emerging threat patterns
-- **Tag Distribution Balance**: Helps identify if categories need more granularity
-- **Consistency Patterns**: Reveals if similar cases receive similar classifications
-
-#### Customization Options
-The script can be modified to:
-- Analyze specific datasets by changing file paths
-- Focus on particular classification categories
-- Export results in different formats
-- Generate visualizations of tag distributions
-- Compare results across different time periods
-
-This analysis tool helps maintain classification quality and provides insights for continuous improvement of the classification system.
 
 ## Workflow Stages
 
@@ -268,21 +253,8 @@ The system includes comprehensive resume functionality:
 - **Manual CSV Editing:** You can directly edit tags in `classified_1_test.csv` rows
 - **Schema Updates:** Use the `update_schema_from_results.py` script to automatically add new tags to `schema.json`
 - **Direct Schema Editing:** Manually edit `schema.json` if you prefer JSON editing
+- **Change Custom Instructions** Manually edit `specific_instructions.py`
 
-### Schema Enhancement Process
-1. **Edit `schema.json`** to add missing elements (this is your existing schema file)
-2. **Add new categories/values** that would improve classification
-3. **Refine existing categories** for better precision
-4. **Ensure consistency** in naming and structure
-
-**Important Note:** The workflow uses your existing `schema.json` file throughout all stages. There is no `schema_1_discovery.json` file generated - the system loads and uses your pre-existing schema as the foundation.
-
-### Value Addition
-Manual improvements provide:
-- **Domain Expertise:** Human understanding of cybercrime patterns
-- **Schema Completeness:** Coverage of edge cases and emerging threats
-- **Classification Quality:** Better training data for subsequent stages
-- **Cost Efficiency:** Fewer API calls needed for corrections
 
 ## Technical Features
 

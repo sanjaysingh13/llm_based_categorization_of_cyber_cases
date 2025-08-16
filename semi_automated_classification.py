@@ -314,7 +314,8 @@ Return only the JSON response.
             output_df = pd.DataFrame(partial_results) if partial_results else df.iloc[:0].copy()
             return output_df, schema, excluded_cases.union(already_processed)
         
-        sample_df = available_cases.sample(n=remaining_to_process, random_state=42)
+        # Use truly random selection without fixed seed for different results each time
+        sample_df = available_cases.sample(n=remaining_to_process)
         self.logger.info(f"Processing {len(sample_df)} new cases for {iteration_name} (resume mode)")
         
         # Discover schema if not provided (first iteration only)
@@ -699,7 +700,8 @@ async def run_direct_sample(classifier, df, schema, sample_size):
     """Process a direct sample with your schema"""
     print(f"Processing {sample_size} random cases...")
     
-    sample_df = df.sample(n=min(sample_size, len(df)), random_state=42)
+    # Use truly random selection without fixed seed for different results each time
+    sample_df = df.sample(n=min(sample_size, len(df)))
     
     # Process using your schema
     result_df, _, _ = await classifier.process_iteration(

@@ -95,19 +95,11 @@ pip install -r requirements.txt
 3. **Review INSTRUCTIONS.md**: Detailed technical documentation
 4. **Examine examples**: Look at existing output files for reference
 
-## Known Issues
-
-- Large datasets require significant memory (8GB+ recommended)
-- API rate limiting may cause delays during processing
-- Schema updates require manual review for quality assurance
-
 ## Future Enhancements
 
 - Web-based interface for easier interaction
 - Batch processing optimization for very large datasets
 - Additional LLM provider support
-- Real-time progress monitoring
-- Automated quality assessment metrics
 
 ## Support
 
